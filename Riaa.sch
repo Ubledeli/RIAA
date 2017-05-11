@@ -712,7 +712,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 5800 1900 6100
 Wire Wire Line
-	1900 6100 4850 6100
+	4850 6100 1900 6100
 Wire Wire Line
 	2300 6100 2300 5600
 Connection ~ 2300 6100
@@ -735,7 +735,7 @@ Connection ~ 4850 5500
 Wire Wire Line
 	5900 5500 6650 5500
 Wire Wire Line
-	6350 5800 6350 6000
+	6350 5850 6350 6000
 Wire Wire Line
 	7100 6000 4850 6000
 Connection ~ 4850 6000
