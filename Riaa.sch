@@ -654,14 +654,14 @@ Connection ~ 6450 2600
 Wire Wire Line
 	1300 2050 1500 2050
 Wire Wire Line
-	1300 1550 4100 1550
+	1300 1500 4100 1500
 Wire Wire Line
-	4100 1550 4100 2050
+	4100 1500 4100 2050
 Wire Wire Line
 	3150 2400 5750 2400
 Wire Wire Line
-	3700 2400 3700 1550
-Connection ~ 3700 1550
+	3700 2400 3700 1500
+Connection ~ 3700 1500
 Wire Wire Line
 	1500 2050 1500 1800
 Wire Wire Line
@@ -826,7 +826,7 @@ Connection ~ 2300 5300
 Connection ~ 3150 1800
 Connection ~ 3700 2400
 Wire Wire Line
-	1300 1550 1300 1950
+	1300 1500 1300 1950
 Wire Wire Line
 	1300 2650 1300 2150
 Wire Wire Line
@@ -837,4 +837,17 @@ Connection ~ 6350 5500
 Wire Wire Line
 	6650 5600 6650 6000
 Connection ~ 6650 6000
+$Comp
+L C C10
+U 1 1 5918A004
+P 1900 1650
+F 0 "C10" H 2015 1696 50  0000 L CNN
+F 1 "100n" H 2015 1605 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1938 1500 50  0001 C CNN
+F 3 "" H 1900 1650 50  0001 C CNN
+	1    1900 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 1800
+Connection ~ 1900 1500
 $EndSCHEMATC
