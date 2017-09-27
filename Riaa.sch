@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Riaa-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -99,7 +100,7 @@ F 3 "" H 5850 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL071 U1
+L TL071-RESCUE-Riaa U1
 U 1 1 590836D0
 P 3200 5250
 F 0 "U1" H 3541 5296 50  0000 L CNN
@@ -110,7 +111,7 @@ F 3 "" H 3350 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL071 U3
+L TL071-RESCUE-Riaa U3
 U 1 1 590837A4
 P 5650 4900
 F 0 "U3" H 5991 4946 50  0000 L CNN
@@ -121,7 +122,7 @@ F 3 "" H 5800 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL071 U4
+L TL071-RESCUE-Riaa U4
 U 1 1 59083810
 P 8300 4400
 F 0 "U4" H 8641 4446 50  0000 L CNN
@@ -712,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 5800 1900 6100
 Wire Wire Line
-	4850 6100 1900 6100
+	1900 6100 4850 6100
 Wire Wire Line
 	2300 6100 2300 5600
 Connection ~ 2300 6100
